@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         try{
-            FileInputStream fis = new FileInputStream(new File("D:\\Учеба\\Информатика\\projects\\algos\\Jarvis_algoritm\\Jarvis\\src\\ru\\itis\\Marat\\Jarvis\\data50.txt"));
+            FileInputStream fis = new FileInputStream(new File("D:\\Учеба\\Информатика\\projects\\algos\\Jarvis_algoritm\\Jarvis\\src\\ru\\itis\\Marat\\Jarvis\\DataSet\\data50.txt"));
             ObjectInputStream ois = new ObjectInputStream(fis);
             List<Point> points = (ArrayList) ois.readObject();
             ois.close();

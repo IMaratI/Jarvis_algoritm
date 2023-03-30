@@ -21,7 +21,7 @@ public class DataGenerator {
         System.out.println(n);
 
             try {
-                FileOutputStream fos = new FileOutputStream(new File("D:\\Учеба\\Информатика\\projects\\algos\\Jarvis_algoritm\\Jarvis\\src\\ru\\itis\\Marat\\Jarvis\\data32.txt"));
+                FileOutputStream fos = new FileOutputStream(new File("D:\\Учеба\\Информатика\\projects\\algos\\Jarvis_algoritm\\Jarvis\\src\\ru\\itis\\Marat\\Jarvis\\DataSet\\data32.txt"));
                 ObjectOutputStream oos = new ObjectOutputStream(fos);
                 // Запись объектов в файл
                 for(int i = 0; i < n; i++) {
