@@ -72,7 +72,7 @@ public final class JarvisAlgorithm {
 
                 // Update the next point if the cross product is positive or if it is zero and the
                 // distance to the i-th point is greater than the distance to the current next point
-                if (next.equals(current) || crossProduct > 0
+                if (next.equals(current) || crossProduct < 0
                         || (crossProduct == 0 && distance(current, points.get(i)) > distance(current, next))) {
                     next = points.get(i);
                 }
